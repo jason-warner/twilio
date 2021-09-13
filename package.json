@@ -1,0 +1,27 @@
+{
+  "name": "sendsms",
+  "version": "1.0.0",
+  "description": "send SMS with twilio",
+  "main": "sendSMS.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason-warner/twilio.git"
+  },
+  "keywords": [
+    "twilio",
+    "node.js"
+  ],
+  "author": "Jason Warner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason-warner/twilio/issues"
+  },
+  "homepage": "https://github.com/jason-warner/twilio#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "twilio": "^3.67.2"
+  }
+}
